@@ -1,0 +1,28 @@
+{
+  "name": "discord-bot",
+  "version": "0.0.1",
+  "description": "A simple, little advanced, and a cool Discord bot with a cool command-handler.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js#21d37ed0cc71b227be0feadc4ffbcd522ca4f00e",
+    "better-sqlite3": "^5.4.3",
+    "enmap": "^5.2.3",
+    "ms": "^2.1.2",
+    "moment": "^2.24.0",
+    "dotenv": "^8.2.0"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "url": "https://github.com/Aarontrakon/discord-bot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "discord-bot",
+    "discord-js-bot"
+  ]
+}
